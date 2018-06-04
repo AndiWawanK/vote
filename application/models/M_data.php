@@ -22,6 +22,18 @@
       // echo "</pre>";
     }
     public function insert_voted($data){
-      
+      $this->db->set('nim', $data['nim']);
+      $this->db->set('senin', $data['senin']);
+      $this->db->set('selasa', $data['selasa']);
+      $this->db->set('rabu', $data['rabu']);
+      $this->db->set('kamis', $data['kamis']);
+      $this->db->set('jumat', $data['jumat']);
+      $this->db->set('sabtu', $data['sabtu']);
+      return $this->db->insert('voted');
+    }
+    public function set_status($nim){
+      $this->db->set('status', 'Voted');
+      $this->db->where('nim', $nim);
+      return $this->db->update('mahasiswa');
     }
   }

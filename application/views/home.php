@@ -37,7 +37,7 @@
             <div class="__heading">
               <h1>Vooting Jadwal Pelaksanaan Belajar Bersama FTI UMBY</h1>
               <h3>ITDev Adalah Group/Team Belajar Yang Dilaksakan di Kampus <br> Universitas Mercu Buana Yogyakarta</h3>
-              <button type="submit" class="btn btn-voting btn-lg" name="button">Berikan Vooting</button>
+              <a href="<?php echo base_url('/login') ?>" type="button" class="btn btn-voting btn-lg" name="button">Berikan Vooting</a>
             </div>
           </div>
         </div>

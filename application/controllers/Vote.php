@@ -25,5 +25,11 @@
         'sabtu'   => $this->input->post('sabtu')
       );
       $this->M_data->insert_voted($data);
+      $this->M_data->set_status($nim);
+      $this->session->sess_destroy();
+    	redirect('vote/terimah_kasih');
+    }
+    public function terimah_kasih(){
+      $this->load->view('respon');
     }
   }

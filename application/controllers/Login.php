@@ -5,6 +5,11 @@
       parent:: __construct();
       $this->load->helper('url');
       $this->load->model('M_data');
+      $this->load->helper(array('form'));
+      $this->load->library('form_validation');
+      if($this->session->userdata('status') == "login"){
+			    redirect(base_url("vote/dashboard"));
+		  }
     }
     public function index(){
       $respon['response'] = $this->session->flashdata('message');
@@ -19,12 +24,18 @@
     }
 
     public function login(){
+      $this->form_validation->set_rules('nim', 'Nim', 'trim|required|min_length[8]|max_length[10]');
+      $this->form_validation->set_rules('nama', 'Nama', 'trim|required|');
+
+      if($this->form_validation->run() != FALSE){
+        redirect('login');
+      }else{
+
       $nim  = $this->input->post('nim');
 		  $nama = $this->input->post('nama');
   		$where = array(
   			'nim' => $nim
   			);
-
 
         // var_dump();
         // die();
@@ -51,8 +62,6 @@
                 // var_dump($data_session);
                 // die();
         			$this->session->set_userdata($data_session);
-
-              // echo "Login Berhasil";
               $this->M_data->update_mhs($nim,$nama);
               // $this->session->set_flashdata('message',$nama);
               redirect(base_url("vote/dashboard"));
@@ -60,13 +69,13 @@
             }else{
 
               $this->session->set_flashdata('message','Anda Sudah Melakukan Vote!');
-              redirect("login/index");
+              redirect("login/");
 
             }
 
       		}else{
             $this->session->set_flashdata('message','Username dan password salah !');
-            redirect("login/index");
+            redirect("login/");
       		}
 
         // }else{
@@ -75,6 +84,7 @@
         //   redirect("login/index");
         // }
 
+      }
 
     }
   }

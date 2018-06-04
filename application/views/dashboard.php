@@ -34,14 +34,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="senin" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="senin" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="senin" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="senin" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -63,14 +63,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="selasa" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="selasa" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="selasa" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="selasa" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -92,14 +92,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="rabu" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="rabu" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="rabu" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="rabu" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -121,14 +121,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="kamis" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="kamis" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="kamis" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="kamis" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -150,14 +150,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="jumat" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="jumat" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="jumat" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="jumat" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -179,14 +179,14 @@
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="sabtu" value="09:00-11:00"> Pukul <b>09:00 - 11:00</b>
+                                <input type="radio" name="sabtu" value="09:00-11:00" required> Pukul <b>09:00 - 11:00</b>
                               </label>
                             </div>
                           </li>
                           <li class="list-group-item">
                             <div class="radio">
                               <label>
-                                <input type="radio" name="sabtu" value="03:00-04:00"> Pukul <b>03:00 - 04:00</b>
+                                <input type="radio" name="sabtu" value="03:00-04:00" required> Pukul <b>03:00 - 04:00</b>
                               </label>
                             </div>
                           </li>
@@ -196,7 +196,7 @@
                     </div>
                   </div>
                 </div>
-                <button type="submit" style="width:100%" class="btn btn-danger" name="button">Vote</button>
+                <button type="submit" style="width:100%" class="btn btn-danger" name="vote">Vote</button>
               </form>
             </div>
 

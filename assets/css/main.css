@@ -95,6 +95,25 @@
 .panel-voting{
   margin-top: 10vh;
 }
+.__terimah_kasih{
+  margin-top: 50px;
+}
+.__terimah_kasih h3{
+  color: #898989;
+}
+.__terimah_kasih hr{
+  width: 50px;
+  border-bottom: dotted 8px #d6d6d6;
+  border-top: none;
+}
+.btn-terimah_kasih{
+  background-color: #38ceea;
+  color: #fff;
+}
+.btn-terimah_kasih:hover{
+  background-color: #f25496;
+  color: #fff;
+}
 .glyphicon { margin-right:5px; }
 .glyphicon-new-window { margin-left:5px; }
 .panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
