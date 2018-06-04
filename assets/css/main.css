@@ -11,7 +11,7 @@
   height: 93vh;
 }
 .__heading{
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 @media (max-width: 992px) {
   .__heading{
@@ -119,3 +119,43 @@
 .panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
 .panel-body .list-group {margin-bottom: 0;}
 .margin-bottom-none { margin-bottom: 0; }
+
+.time-lapse{
+  margin-top: 20px;
+}
+.time-lapse h3{
+  font-weight: 400;
+  text-align: center;
+  color: #eee;
+  margin-left: 4px;
+}
+div.countdown.col-xs-3{
+  padding: 0px;
+}
+.countdown span{
+  /* font-size: 2vw; */
+  text-transform:capitalize;
+  color: #eee;
+}
+@media (max-width: 992px) {
+  .countdown span{
+    font-size: 3vw;
+  }
+}
+/* .countdown hr{
+  border-color: #eee;
+  border-width: 2px;
+} */
+.countdown-block{
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .countdown{
+    padding: 0px 27px;
+  }
+}
+@media (max-width: 320px) {
+  .time-lapse{
+    display: none;
+  }
+}

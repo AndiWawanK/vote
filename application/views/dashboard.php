@@ -203,7 +203,16 @@
               <div class="col-md-6">
                 <h3>Haloo <?php echo $this->session->userdata("nama"); ?>!</h3>
                 <p>Kami Ingin Mengetahui Waktu Luang Kamu Untuk Mengikuti Program Belajar
-                Bersama Fakultas Teknologi Informasi Universitas Mercu Buana Yogyakarta</p>
+                Bersama Fakultas Teknologi Informasi Universitas Mercu Buana Yogyakarta</p><br>
+                <b>Petunjuk</b>
+                <ol>
+                  <li>Klik Nama-Nama Hari Disamping</li>
+                  <li>Centang Salah Satu Jadwal (Menurut Waktu Luang Anda)</li>
+                  <li>Semua Hari Harus Dicentang Salah Satunya</li>
+                  <li>Periksa Kembali Semua Jadwal Pilihan Anda</li>
+                  <li>Klik Tombol <b>Vote</b> Jika Semua Jadwal Anda Sudah Benar </li>
+                  <li><b>Terimah Kasih :)</b></li>
+                </ol>
               </div>
 
             </div>

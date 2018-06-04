@@ -6,6 +6,9 @@
       $this->load->model('M_data');
     }
     public function index(){
+      if($this->session->userdata('status') == "login"){
+			    redirect(base_url("vote/dashboard"));
+		  }
       $this->load->view('home');
     }
     public function dashboard(){

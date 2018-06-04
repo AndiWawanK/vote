@@ -39,6 +39,38 @@
               <h3>ITDev Adalah Group/Team Belajar Yang Dilaksakan di Kampus <br> Universitas Mercu Buana Yogyakarta</h3>
               <a href="<?php echo base_url('/login') ?>" type="button" class="btn btn-voting btn-lg" name="button">Berikan Vooting</a>
             </div>
+
+
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="time-lapse">
+                  <div class="countdown-block">
+                    <div class="countdown col-xs-3" id="">
+                      <h3 id="days"></h3>
+                      <span>days</span>
+                      <!-- <hr> -->
+                    </div>
+                    <div class="countdown col-xs-3" id="">
+                      <h3 id="hours"></h3>
+                      <span>hours</span>
+                      <!-- <hr> -->
+                    </div>
+                    <div class="countdown col-xs-3" id="">
+                      <h3 id="minutes"></h3>
+                      <span>minutes</span>
+                      <!-- <hr> -->
+                    </div>
+                    <div class="countdown col-xs-3" id="">
+                      <h3 id="seconds"></h3>
+                      <span>seconds</span>
+                      <!-- <hr> -->
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4"></div>
+
+
           </div>
         </div>
       </div>
@@ -46,5 +78,6 @@
 
     <script src="<?php echo base_url() ?>assets/js/jquery.js"></script>
     <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/mytime.js"></script>
   </body>
 </html>
