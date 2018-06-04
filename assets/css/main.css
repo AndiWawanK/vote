@@ -1,0 +1,102 @@
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 0px;
+}
+.__wrappol{
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  height: 93vh;
+}
+.__heading{
+  margin-top: 30vh;
+}
+@media (max-width: 992px) {
+  .__heading{
+    margin-top: 20vh;
+  }
+}
+.__heading h1{
+  font-size: 3vw;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.__heading h3{
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 10px
+}
+@media (max-width: 992px) {
+  .__heading h1{
+    font-size: 10vw;
+  }
+}
+.btn-voting{
+  background-color: transparent;
+  border: 2px solid #38ceea;
+  color: #38ceea;
+  border-radius: 40px;
+  width: 200px;
+}
+.btn-voting:hover{
+  background-color: #38ceea;
+  color: #fff;
+}
+
+/* LOGIN */
+.well{
+  background-color:#fff!important;
+  border-radius:0!important;
+  border:none!important;
+}
+.well.login-box {
+    width:300px;
+    margin:0 auto;
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:16px;
+  letter-spacing: 1px;
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+.btn-loginvoting{
+  background-color: transparent;
+  border: 2px solid #38ceea;
+  color: #38ceea;
+  border-radius: 40px;
+  width: 263px;
+}
+.btn-loginvoting:hover{
+  background-color: #38ceea;
+  color: #fff;
+}
+
+/* DASHBOARD */
+.panel-default {
+  border-color: #38ceea;
+}
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #38ceea;
+  border-color: #38ceea;
+}
+.panel-voting{
+  margin-top: 10vh;
+}
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.panel-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
